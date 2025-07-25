@@ -53,6 +53,8 @@
 
 		# sets the Host header to the header to the dynamic name and port options
 		header_up Host {upstream_hostport}
+		tls internal
+
 	}
 
 	# the handle_path directive WILL strip /api/ from the path before proxying

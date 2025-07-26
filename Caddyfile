@@ -14,5 +14,5 @@
 }
 
 :80 {
-    reverse_proxy gitroomhqpostiz-applatest.railway.internal:3000
+    reverse_proxy gitroomhqpostiz-applatest.railway.internal:4200
 }
